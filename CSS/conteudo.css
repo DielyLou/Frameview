@@ -1,0 +1,159 @@
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(196, 72, 72);
+    border-radius: 20px;
+    border: 0.1px solid black;
+    
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(202, 49, 49, 1);
+}
+
+*::selection {
+    background-color: rgb(109, 92, 214);
+}
+
+
+
+body {
+    padding: 20px ;
+    background-color: slateblue;
+    font-family: arial;
+ }
+ /* slateblue */
+.container{
+    max-width: 1840px;
+    margin: auto;
+}
+
+section .container .language{
+    display: flex;
+    margin-top: 35px;
+}
+
+section .container .language .html{
+    flex: 1;
+    padding: 10px;
+    margin-left: 20px;
+    border: 0.1px solid rgba(71, 61, 61, 0.1);
+    border-radius: 25px;
+    box-shadow: 5px 5px 18px 0.1px rgba(0, 0, 0, 0.6);
+    /* box-shadow: 10px 10px 10px; */
+    /* background-color: rgba(190, 72, 72,0.3); */
+    background-color: #df4c3ee3;
+}
+section .container .language .css{
+    flex: 1;
+    padding: 10px;
+    margin-left: 20px;
+    border: 0.1px solid rgba(71, 61, 61, 0.1);
+    border-radius: 25px;
+    box-shadow: 5px 5px 18px 0.1px rgba(0, 0, 0, 0.637);
+    /* box-shadow: 10px 10px 10px; */
+    /* background-color: rgba(190, 72, 72,0.3); */
+    background-color: #0992d9;
+}
+section .container .language .js{
+    flex: 1;
+    padding: 10px;
+    margin-left: 20px;
+    border: 0.1px solid rgba(71, 61, 61, 0.1);
+    border-radius: 25px;
+    box-shadow: 5px 5px 18px 0.1px rgba(0, 0, 0, 0.6);
+    /* box-shadow: 10px 10px 10px; */
+    /* background-color: rgba(190, 72, 72,0.3); */ 
+    background-color: #cfb031;
+}
+
+section .container .language .html:hover{
+    transition: 1.3s;
+    /* box-shadow: 5px 5px 18px 0px rgba(0, 0, 0, 0.6); */
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 10px black;
+    
+    
+}
+section .container .language .css:hover{
+    transition: 1.3s;
+    /* box-shadow: 5px 5px 18px 0px rgba(0, 0, 0, 0.6); */
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 10px 10px 10px black;
+    background-color: #0992d9;
+}
+section .container .language .js:hover{
+    transition: 1.3s;
+    /* box-shadow: 5px 5px 18px 0px rgba(0, 0, 0, 0.6); */
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    box-shadow: 10px 10px 10px black;
+    background-color: #cfb031;
+}
+
+section .container .language .language-name{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+section .container .language .language-name img{
+    margin-right: 15px;
+    
+    
+}
+
+
+section .container .language .language-conteudo{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+section .container .language .language-conteudo a{
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 35px;
+    color: rgb(25, 17, 48);
+    background-color: white;
+    box-shadow: 8px 6px rgb(24, 23, 23);
+}
+/* inset 0 0 0.5em rgb(156, 155, 155) */
+section .container .language .language-conteudo a:hover{
+    background-color: rgb(54, 63, 73);
+    color: white;
+    font-size: 20px;
+    transition: 1.3s;
+    -webkit-box-shadow: 15px 12px 9px rgba(0, 0, 0, 0.77);
+    
+    border-radius: 100px;
+   
+}
+
+
+.html .language-conteudo a:hover{
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    color: rgb(25, 17, 48);
+}

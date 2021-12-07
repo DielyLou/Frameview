@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+*::selection {
+    background-color: slateblue;
+    font-size: min(100%, 16px);
+}
+
+
+
+body {
+    padding: 20px ;
+    background-color: slateblue;
+    font-family: arial;
+ }
+
+.container{
+    max-width: 1940px;
+    margin: auto;
+    padding: 20px;
+   
+    
+}
+
+
+
+header .container .button{
+    display: flex;
+    align-items: center;
+   
+    
+    
+}
+
+header .container .button .traco{
+    width: 5px;
+    height: 18px;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 100px;
+    margin-right: 5px;
+}
+
+
+header .container a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow:  inset 0 0 0.5em rgb(255, 255, 255), 8px 6px black;
+    font-size: 20px;
+    margin-left: 17px;
+}
+
+header .container a:hover{
+    color:white;
+    background-color: rgb(54, 63, 73);
+    font-size: 30px;
+    transition: 1.3s;
+    border: 3px solid rgb(29, 32, 43);
+    box-shadow:  inset 0 0 0.5em rgb(27, 27, 27), 13px 13px 10px rgb(24, 23, 23);
+    border-radius: 50px;
+}
+
+header .container a:hover .traco{
+    width: 5px;
+    height: 24px;
+    transition: 1s;
+}
+
+
+
+
